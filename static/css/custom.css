@@ -1,0 +1,38 @@
+/* Custom styles for Recipe Assistant App */
+
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+    color: #1f2937;
+    overflow: hidden;
+}
+
+/* Responsive improvements */
+@media (max-width: 768px) {
+    .app-container {
+        margin: 0 !important;
+    }
+    
+    .header h1 {
+        font-size: 1.5rem !important;
+    }
+    
+    .header p {
+        font-size: 0.85rem !important;
+    }
+    
+    .message-content {
+        max-width: 85% !important;
+    }
+    
+    .chat-input-container {
+        padding: 1rem !important;
+    }
+}
