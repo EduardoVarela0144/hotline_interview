@@ -7,7 +7,7 @@ import base64
 from io import BytesIO
 from PIL import Image
 from langchain_openai import ChatOpenAI
-from langchain.schema import HumanMessage, SystemMessage
+from langchain_core.messages import HumanMessage, SystemMessage
 import logging
 from dotenv import load_dotenv
 
